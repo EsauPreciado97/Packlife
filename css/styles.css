@@ -1,108 +1,174 @@
 .navbar-white {
-    width:              100%;
-    height:             100px;
-    max-height:         150px;
-    display:            flex;
-    align-items:        center;
+    width:                  100%;
+    height:                 100px;
+    max-height:             150px;
+    display:                flex;
+    align-items:            center;
 
 }
 
 .navbar-logo-container {
-    width:              50%;
-    height:             80px;
-    max-height:         130px;
+    width:                  50%;
+    height:                 80px;
+    max-height:             130px;
 }
 
 .navbar-icons-container {
-    width:              50%;
-    height:             80px;
-    max-height:         130px;
-    display:            flex;
+    width:                  50%;
+    height:                 80px;
+    max-height:             130px;
+    display:                flex;
 }
 
 .navbar-icons-container p{
-    font-size:          13px;
-    margin-top:         30px;
+    font-size:              20px;
+    margin-top:             25px;
 }
 
 .vl {
-    border-left:        1px solid #447EBA;
-    height:             65%;
-    margin-left:        50px;
-    margin-top:         15px;
+    border-left:            1px solid #447EBA;
+    height:                 65%;
+    margin-left:            50px;
+    margin-top:             15px;
 }
 
 .hero-carousel-container{
-    width:              100%;
-    height:             575px;
+    width:                  100%;
+    height:                 575px;
 }
 
 .carousel-caption{
-    margin-bottom:      30%;
-    left:               7%;
-    right:              65%;
+    margin-bottom:          30%;
+    left:                   7%;
+    right:                  65%;
 
 }
 
 .carousel-caption h1{
-    text-align:         left;
-    font-size:          30px;
+    text-align:             left;
+    font-size:              35px;
 }
 
 .highlights{
-    width:              100%;
-    height:             800px;
-    background-image:   url("/Media/Imagenes/iconos.png");
-    background-size:    cover;
-    background-repeat:  no-repeat;
-    background-position-x: center;
+    width:                  100%;
+    height:                 800px;
+    background-image:       url("/Media/Imagenes/iconos.png");
+    background-size:        cover;
+    background-repeat:      no-repeat;
+    background-position-x:  center;
+    padding-top:            85px;
+    font-size:              25px;
+    font-weight:            900;
+    color:                #ffffff;
+    display:                flex;
+    flex-direction:         column;
+    align-items:            center;
 }
 
 .banner-exito{
-    width:              100%;
-    height:             500px;
-    background-image:   url("/Media/Imagenes/meanwhile.jpg");
-    background-size:    cover;
-    background-repeat:  no-repeat;
-    background-position-x: center;
-    
-    display:            flex;
-    align-content:      center;
-    text-align:         center;
-    color:            white;
-    font-size:          30px;
-    font-weight:        bolder;
-    
+    width:                  100%;
+    height:                 500px;
+    background-color:       #1560a4;
+    display:                flex;
+    align-items:            center;
+    justify-content:        center;
 }
 
+.high-container{
+    display:                flex;
+    width:                  95%;
+    height:                 500px;
+    margin-top:             90px;
+
+}
+
+.hcard{
+    display:                flex;
+    flex-direction:         column;
+    width:                  20%;
+    height:                 100%;
+    margin-left:            15px;
+}
+
+.icon-Images{
+    width:                  200px;
+    height:                 200px;
+    min-width:              200px;
+    min-height:             200px;
+    margin:                 auto;
+    margin-top:             10px;
+    margin-bottom:          40px;
+}
+
+.white-msg{
+    font-size:              15px;
+    color:                  #1560a4;
+    text-align:             center;
+    margin-top:             40px;
+    background-color:       #ffffff;
+    padding-top:            20px;
+    padding-bottom:         5px;
+    padding-left:           10px;
+    padding-right:          10px;
+    height:                 115px;
+
+}
+
+.marcas-container{
+    width:                  100%;
+    height:                 500px;
+    background-color:       #ffffff;
+}
+
+
+.footer{
+    width:                  100%;
+    height:                 500px;
+    background-color:       #1560a4;
+    display:                flex;
+    flex-direction:         row;
+}
+
+.footer-section{
+    display:                flex;
+    flex-direction:         column;
+    width:                  25%;
+    height:                 100%;
+    align-items:            center;
+    justify-content:        center;
+    margin-left: 37px;
+}
+
+
+
 #navbar-logo {
-    max-width:          200px;
-    margin-left:        15%;
-    margin-top:         6px;
+    max-width:              200px;
+    margin-left:            15%;
+    margin-top:             6px;
 }
 
 #navbar-mail-icon {
-    max-width:          50px;
-    max-height:         50px;
-    margin-left:        10%;
-    margin-top:         15px;
+    max-width:              50px;
+    max-height:             50px;
+    margin-left:            10%;
+    margin-top:             15px;
 }
 
 #navbar-phone {
-    max-width:          50px;
-    max-height:         50px;
-    margin-left:        10%;
-    margin-top:         15px;
+    max-width:              50px;
+    max-height:             50px;
+    margin-left:            10%;
+    margin-top:             15px;
 }
 
 #navbar-facebook {
-    max-width:          40px;
-    max-height:         40px;
-    margin-top:         20px;
+    max-width:              40px;
+    max-height:             40px;
+    margin-top:             20px;
 }
 #navbar-instagram {
-    max-width:          40px;
-    max-height:         40px;
-    margin-top:         20px;
+    max-width:              40px;
+    max-height:             40px;
+    margin-top:             20px;
 }
 
