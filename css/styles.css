@@ -1,0 +1,108 @@
+.navbar-white {
+    width:              100%;
+    height:             100px;
+    max-height:         150px;
+    display:            flex;
+    align-items:        center;
+
+}
+
+.navbar-logo-container {
+    width:              50%;
+    height:             80px;
+    max-height:         130px;
+}
+
+.navbar-icons-container {
+    width:              50%;
+    height:             80px;
+    max-height:         130px;
+    display:            flex;
+}
+
+.navbar-icons-container p{
+    font-size:          13px;
+    margin-top:         30px;
+}
+
+.vl {
+    border-left:        1px solid #447EBA;
+    height:             65%;
+    margin-left:        50px;
+    margin-top:         15px;
+}
+
+.hero-carousel-container{
+    width:              100%;
+    height:             575px;
+}
+
+.carousel-caption{
+    margin-bottom:      30%;
+    left:               7%;
+    right:              65%;
+
+}
+
+.carousel-caption h1{
+    text-align:         left;
+    font-size:          30px;
+}
+
+.highlights{
+    width:              100%;
+    height:             800px;
+    background-image:   url("/Media/Imagenes/iconos.png");
+    background-size:    cover;
+    background-repeat:  no-repeat;
+    background-position-x: center;
+}
+
+.banner-exito{
+    width:              100%;
+    height:             500px;
+    background-image:   url("/Media/Imagenes/meanwhile.jpg");
+    background-size:    cover;
+    background-repeat:  no-repeat;
+    background-position-x: center;
+    
+    display:            flex;
+    align-content:      center;
+    text-align:         center;
+    color:            white;
+    font-size:          30px;
+    font-weight:        bolder;
+    
+}
+
+#navbar-logo {
+    max-width:          200px;
+    margin-left:        15%;
+    margin-top:         6px;
+}
+
+#navbar-mail-icon {
+    max-width:          50px;
+    max-height:         50px;
+    margin-left:        10%;
+    margin-top:         15px;
+}
+
+#navbar-phone {
+    max-width:          50px;
+    max-height:         50px;
+    margin-left:        10%;
+    margin-top:         15px;
+}
+
+#navbar-facebook {
+    max-width:          40px;
+    max-height:         40px;
+    margin-top:         20px;
+}
+#navbar-instagram {
+    max-width:          40px;
+    max-height:         40px;
+    margin-top:         20px;
+}
+
