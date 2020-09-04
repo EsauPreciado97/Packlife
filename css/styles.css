@@ -38,6 +38,41 @@
 
 /* CLASSES */
 
+.services-title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.75rem;
+    padding-top: 10%;
+    font-weight: 900;
+    padding-bottom: 5%;
+}
+
+.i-service{
+    height: 500px;
+}
+
+.seg{
+    height: 160px;
+    text-align: center;
+}
+
+.whiteTxt{
+    text-align: center !important;
+    color: #1560a4 !important; 
+    font-weight: 800 !important; 
+    font-size: 13px !important;
+    padding-top: 25px;
+}
+
+.whiteTitle{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 45px;
+}
+
+
 .sldr-img-mobile{
     display: block;
 }
@@ -85,14 +120,7 @@
     font-size: 11px !important;
 }
 
-.whiteText{
-    background-color: #ffffff !important;
-    max-width: 70% !important;
-    padding: 20px !important;
-    margin-top: 5% !important;
 
-    font-weight: 800;
-}
 
 .txt{
     margin-top:     30px;
