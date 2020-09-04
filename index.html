@@ -27,14 +27,14 @@
         </div>
         <div class="col-md-6" style="text-align: left; margin-top: 2rem !important;">
             <div class="media">
-                <a href="mailto:ventas01@packlife.com"><img src="/Media/Imagenes/mail-header.png" class="align-self-center mr-3" alt="ventas01@packlife.com" width="40px"></a>
-                <div class="media-body" style="margin-top: 1.8rem !important; max-width: 200px;">
-                  <h5>ventas01@packlife.com </h5>
+                <a href="mailto:ventas01@packlife.com"><img src="/Media/Imagenes/mail-header.png" class="align-self-center mr-3" alt="ventas01@packlife.com" width="40px" style="margin-right: 1px !important; margin-top: 10px !important;"></a>
+                <div class="media-body" style="margin-top: 22px !important; max-width: 200px;">
+                  <div class="mailNav"><a href="mailto:ventas01@packlife.com" style="color:black">ventas01@packlife.com</a></div>
                 </div>
                 <div class="vl">&nbsp;</div>
-                <a href="https://bit.ly/3fRsV4G"><img src="/Media/Imagenes/phone-header.png" alt="Telefono" width="40px" style="margin-top: 1rem !important;"></a>
-                <a href="https://www.facebook.com/packlifemx"><img src="/Media/Imagenes/facebook.png" alt="Facebook" width="40px" style="margin-top: 1rem !important;"></a>
-                <a href="https://www.instagram.com/packlifel/?hl=es-la"><img src="/Media/Imagenes/instagram.png" alt="Instagram" width="40px" style="margin-top: 1rem !important;"></a>
+                <a href="https://bit.ly/3fRsV4G"><img src="/Media/Imagenes/phone-header.png" alt="Telefono" width="40px" style="margin-top: 10px !important;"></a>
+                <a href="https://www.facebook.com/packlifemx"><img src="/Media/Imagenes/facebook.png" alt="Facebook" width="40px" style="margin-top: 10px !important;"></a>
+                <a href="https://www.instagram.com/packlifel/?hl=es-la"><img src="/Media/Imagenes/instagram.png" alt="Instagram" width="40px" style="margin-top: 10px !important;"></a>
             </div>
         </div>
     </div>
@@ -43,11 +43,7 @@
 <!-- CAROUSEL -->
 
 <div id="carouselDesktop" class="carousel slide desk" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselDesktop" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselDesktop" data-slide-to="1"></li>
-      <li data-target="#carouselDesktop" data-slide-to="2"></li>
-    </ol>
+
     <div class="carousel-inner">
     <div class="carousel-item active">
         <div class="sldr-img-desktop">
@@ -64,34 +60,28 @@
                     </div>
                     <div class="col-md-4 HeroSpace"></div>
                     <div class="col-md-4 HeroCard">
+
+                        <!-- FORMULARIO MOBILE -->
+
                         <div class="contact-mobile">
                             DESCARGA CATÁLOGO <br> DE PRODUCTOS
                             <form>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
-                                    <input type="text" class="form-control" id="inputMail" placeholder="Correo electrónico">
-                                    <button class="btn btn-primary" type="submit" style="
-                                    
-                                    margin-top: 10px;
-                                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
-                                    border: none;  
-                                    width: 25%;
-                                    
-                                    ">ENVIAR</button>
-                                </div>
-                            </form>
-                        </div>
-
-
-                        <div class="contact-desktop">
-                            DESCARGA CATÁLOGO <br> DE PRODUCTOS
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
-                                    <input type="text" class="form-control" id="inputTel" placeholder="Teléfono" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
                                     <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
                                     <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
-
+                                <div class="form-group">
+                                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                                    <div class="form-check form-check-inline" id="checks">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
 
                                     <button class="btn btn-primary" type="submit" style="
                                     
@@ -99,7 +89,41 @@
                                     background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
                                     border: none;  
                                     width: 50%;
-                                    font-size: 1.2em;
+                                    
+                                    ">ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- FORMULARIO DESKTOP -->
+
+                        <div class="contact-desktop">
+                            DESCARGA CATÁLOGO <br> DE PRODUCTOS
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                                <div class="form-group">
+                                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                                    <div class="form-check form-check-inline" id="checks">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+
+                                    <button class="btn btn-primary" type="submit" style="
+                                    
+                                    margin-top: 0px;
+                                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
+                                    border: none;  
+                                    width: 50%;
+                                    font-size: 10px;
                                     
                                     ">ENVIAR</button>
                                 </div>
@@ -123,13 +147,12 @@
 </div>
 
 
-
 <!-- BANNER CASO DE EXITO -->
 
 <div class="container-fluid" id="bannerExito">
     <div class="row">
         <div class="col" style="text-align: center;">
-            <h1 style="margin-top: 200px">BANNER CASO DE EXITO</h1>
+            <h1 style="margin-top: 10%;font-size: 30px !important;">BANNER CASO DE EXITO</h1>
         </div>
     </div>
 </div>
@@ -139,7 +162,7 @@
 <div class="container-fluid" id="marcas">
     <div class="row">
         <div class="col" style="text-align: center;">
-            <h1 style="margin-top: 100px; font-weight: 800 !important; margin-bottom: 50px;">MARCAS QUE REPRESENTAMOS</h1>
+            <h3 style="margin-top: 100px; font-weight: 800 !important; margin-bottom: 50px;">MARCAS QUE REPRESENTAMOS</h3>
 
             <section class="customer-logos slider">
                 <div class="slide"><img src="Media/Imagenes/marca1.png"></div>
@@ -157,23 +180,23 @@
 
 <div class="container-fluid" id="footer">
     <div class="row">
-        <div class="col-lg f-section" style="text-align: center;">
+        <div class="col-md f-section" style="text-align: center;">
             <div>
                 <img src="/Media/Imagenes/logo-bco.png" alt="Packlife" height="150px" style="margin-top: 80px">
             </div>
             <div>
-                <h3 style="margin-top: 20px"><strong>LÍDER EN PRODUCTOS DE LIMPIEZA</strong></h3>
+                <h4 style="margin-top: 20px; font-size: 15px !important;"><strong>LÍDER EN PRODUCTOS DE LIMPIEZA</strong></h4>
             </div>
         </div>
 
 
 
-        <div class="col-lg f-section" style="text-align: left;">
+        <div class="col-md f-section" style="text-align: left;">
             <div>
-                <h3 style="margin-top: 60px"><strong>GUADALAJARA</strong></h3>
+                <p style="margin-top: 60px"><strong>GUADALAJARA</strong></p>
             </div>
             <div class="media" style="margin-top: 30px;">
-                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px">
+                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -184,7 +207,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px">
+                <img src="/Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -194,7 +217,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px">
+                <img src="/Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -208,12 +231,12 @@
 
 
 
-        <div class="col-lg f-section" style="text-align: left;">
+        <div class="col-md f-section" style="text-align: left;">
             <div>
-                <h3 style="margin-top: 60px"><strong>PUERTO VALLARTA</strong></h3>
+                <p style="margin-top: 60px"><strong>PUERTO VALLARTA</strong></p>
             </div>
             <div class="media" style="margin-top: 30px;">
-                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px">
+                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -224,7 +247,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px">
+                <img src="/Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -234,7 +257,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px">
+                <img src="/Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -246,12 +269,12 @@
         </div>
 
 
-        <div class="col-lg f-section" style="text-align: left;">
+        <div class="col-md f-section" style="text-align: left; padding-left: 5%;">
             <div>
-                <h3 style="margin-top: 60px"><strong>CEDIS</strong></h3>
+                <p style="margin-top: 60px"><strong>CEDIS</strong></p>
             </div>
-            <div class="media" style="margin-top: 30px;">
-                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px">
+            <div class="media" style="margin-top: 30px; margin-bottom: 30px; ">
+                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">

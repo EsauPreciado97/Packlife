@@ -56,17 +56,17 @@
     text-align: center;
     height: 33%;
     padding-top: 15%;
-    font-size:  2.5rem;
+    font-size:  30px;
 }
 
 .HeroCard {
     text-align: right;
-    height: 33%
+    height: 67%
 }
 
 .HeroSpace {
     text-align: right;
-    height: 33%
+    height: 0%
 
 }
 
@@ -78,7 +78,11 @@
 }
 
 .mr-3{
-    margin-top: 1rem !important;
+    margin-top: 10px !important;
+}
+
+.mailNav{
+    font-size: 11px !important;
 }
 
 .whiteText{
@@ -97,12 +101,21 @@
 
 .f-section{
     background-color: #1560a4;
+    padding-left:   5%;
+}
+
+.media p{
+    font-size: 12px !important;
+}
+
+.media{
+    padding-left: 0%;
 }
 
 .contact-mobile{
     text-align: center;
-    margin-top: 5%;
-    font-size: 1.5rem;
+    margin-top: 0%;
+    font-size: 15px;
     font-weight: 900;
     color: #1560a4;
     background-color: #ffffff;
@@ -114,7 +127,7 @@
     display: none;
     text-align: center;
     margin-top: 5%;
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 900;
     color: #1560a4;
     background-color: #ffffff;
@@ -124,6 +137,16 @@
 
 .form-group{
     padding: 10% 10% 5% 10% ;
+}
+
+.form-control{
+    border-top:     none !important;
+    border-left:    none !important;
+    border-right:   none !important;
+    border-bottom: 3px solid !important;
+    border-bottom-color: #1560a4 !important;
+    border-bottom-right-radius: 0%;
+    font-size: 12px !important;
 }
 
 /* Slider */
@@ -278,7 +301,7 @@
         padding-top: 5%;
         padding-left: 5% !important;
     
-        font-size:  2rem;
+        font-size:  25px;
 
     }
     .HeroCard {
@@ -292,29 +315,45 @@
     }
     .contact-desktop{
         display: block;
+        max-width: 200px;
+        margin: auto;
+        margin-top: 5%;
     }
 
 
+}
+
+@media (min-width: 375){
+    .mailNav{
+        font-size: 14px !important;
+    }
 }
 
 @media (min-width: 1024px){
     .HeroText {
-        font-size:  2.5rem;
-    }   
+        font-size:  30px;
+    } 
+    
+    .contact-desktop{
+        max-width: 250px;
+        margin-top: 20%;
+    }
 }
 
 @media (min-width: 1440px){
     .HeroText {
-        font-size:  3.5rem;
+        font-size:  40px;
+        padding-top: 10%
     }
     .contact-desktop{
         font-size: 1.1em;
+        max-width: 300px;
     }   
 }
 
 @media (min-width: 1920px){
     .HeroText {
-        font-size:  4.5rem;
+        font-size:  50px;
     }  
     .contact-desktop{
         max-width: 400px;
@@ -326,7 +365,7 @@
 
 @media (min-width: 2560px){
     .HeroText {
-        font-size:  6rem;
+        font-size:  60px;
     }   
     .contact-desktop{
         max-width: 600px;
@@ -335,3 +374,4 @@
         font-size: 2em;
     } 
 }
+

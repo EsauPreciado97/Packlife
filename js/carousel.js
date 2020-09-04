@@ -8,14 +8,14 @@ $(document).ready(function(){
       dots: false,
       pauseOnHover: false,
       responsive: [{
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
-          slidesToShow: 4
+          slidesToShow: 2
         }
       }, {
         breakpoint: 520,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 1
         }
       }]
     });
