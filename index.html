@@ -10,8 +10,8 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<link rel="shortcut icon" href="/Media/Imagenes/favicon.jpg" type="image/x-icon">
-<link rel="icon" href="/Media/Imagenes/favicon.jpg" type="image/x-icon">
+<link rel="shortcut icon" href="./Media/Imagenes/favicon.jpg" type="image/x-icon">
+<link rel="icon" href="./Media/Imagenes/favicon.jpg" type="image/x-icon">
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
@@ -23,18 +23,18 @@
 <div class="container-fluid" id="navbar">
     <div class="row">
         <div class="col-md-6" id="logo" style="margin-top: 1rem !important;">
-            <a href="/index.html"><img src="/Media/Imagenes/logo.png" alt="Logo" height="100"></a>
+            <a href="/index.html"><img src="./Media/Imagenes/logo.png" alt="Logo" height="100"></a>
         </div>
         <div class="col-md-6" style="text-align: left; margin-top: 2rem !important;">
             <div class="media">
-                <a href="mailto:ventas01@packlife.com"><img src="/Media/Imagenes/mail-header.png" class="align-self-center mr-3" alt="ventas01@packlife.com" width="40px" style="margin-right: 1px !important; margin-top: 10px !important;"></a>
+                <a href="mailto:ventas01@packlife.com"><img src="./Media/Imagenes/mail-header.png" class="align-self-center mr-3" alt="ventas01@packlife.com" width="40px" style="margin-right: 1px !important; margin-top: 10px !important;"></a>
                 <div class="media-body" style="margin-top: 22px !important; max-width: 200px;">
                   <div class="mailNav"><a href="mailto:ventas01@packlife.com" style="color:black">ventas01@packlife.com</a></div>
                 </div>
                 <div class="vl">&nbsp;</div>
-                <a href="https://bit.ly/3fRsV4G"><img src="/Media/Imagenes/phone-header.png" alt="Telefono" width="40px" style="margin-top: 10px !important;"></a>
-                <a href="https://www.facebook.com/packlifemx"><img src="/Media/Imagenes/facebook.png" alt="Facebook" width="40px" style="margin-top: 10px !important;"></a>
-                <a href="https://www.instagram.com/packlifel/?hl=es-la"><img src="/Media/Imagenes/instagram.png" alt="Instagram" width="40px" style="margin-top: 10px !important;"></a>
+                <a href="https://bit.ly/3fRsV4G"><img src="./Media/Imagenes/phone-header.png" alt="Telefono" width="40px" style="margin-top: 10px !important;"></a>
+                <a href="https://www.facebook.com/packlifemx"><img src="./Media/Imagenes/facebook.png" alt="Facebook" width="40px" style="margin-top: 10px !important;"></a>
+                <a href="https://www.instagram.com/packlifel/?hl=es-la"><img src="./Media/Imagenes/instagram.png" alt="Instagram" width="40px" style="margin-top: 10px !important;"></a>
             </div>
         </div>
     </div>
@@ -45,12 +45,15 @@
 <div id="carouselDesktop" class="carousel slide desk" data-ride="carousel">
 
     <div class="carousel-inner">
+
+    <!-- SLIDE 1 -->
+
     <div class="carousel-item active">
         <div class="sldr-img-desktop">
-            <img src="/Media/Imagenes/SLIDE1.png" class="d-block w-100" alt="Venta">
+            <img src="./Media/Imagenes/SLIDE1.png" class="d-block w-100" alt="Venta">
         </div>
         <div class="sldr-img-mobile">
-            <img src="/Media/Imagenes/slide1_movil.jpg" class="d-block w-100" alt="Venta">
+            <img src="./Media/Imagenes/slide1_movil.jpg" class="d-block w-100" alt="Venta">
         </div>
         <div class="carousel-caption" style="top:0% !important; left: 0%!important; right: 0%!important;">
             <div class="container-fluid inside-sldr">
@@ -133,7 +136,191 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+
+    <div class="carousel-item">
+        <div class="sldr-img-desktop">
+            <img src="./Media/Imagenes/SLIDE2.png" class="d-block w-100" alt="Venta">
         </div>
+        <div class="sldr-img-mobile">
+            <img src="./Media/Imagenes/slide2_movil.jpg" class="d-block w-100" alt="Venta">
+        </div>
+        <div class="carousel-caption" style="top:0% !important; left: 0%!important; right: 0%!important;">
+            <div class="container-fluid inside-sldr">
+                <div class="row" style="height: 100%;">
+                    <div class="col-md-4 HeroText">
+                        <span style="font-weight: 900;">VENTA<br></span> DE PRODUCTOS<br> <span style="font-weight: 900;"> DE LIMPIEZA</span>
+                    </div>
+                    <div class="col-md-4 HeroSpace"></div>
+                    <div class="col-md-4 HeroCard">
+
+                        <!-- FORMULARIO MOBILE -->
+
+                        <div class="contact-mobile">
+                            DESCARGA CATÁLOGO <br> DE PRODUCTOS
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                                <div class="form-group">
+                                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                                    <div class="form-check form-check-inline" id="checks">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+
+                                    <button class="btn btn-primary" type="submit" style="
+                                    
+                                    margin-top: 10px;
+                                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
+                                    border: none;  
+                                    width: 50%;
+                                    
+                                    ">ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- FORMULARIO DESKTOP -->
+
+                        <div class="contact-desktop">
+                            DESCARGA CATÁLOGO <br> DE PRODUCTOS
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                                <div class="form-group">
+                                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                                    <div class="form-check form-check-inline" id="checks">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+
+                                    <button class="btn btn-primary" type="submit" style="
+                                    
+                                    margin-top: 0px;
+                                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
+                                    border: none;  
+                                    width: 50%;
+                                    font-size: 10px;
+                                    
+                                    ">ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- SLIDE 3 -->
+
+    <div class="carousel-item">
+        <div class="sldr-img-desktop">
+            <img src="./Media/Imagenes/SLIDE3.png" class="d-block w-100" alt="Venta">
+        </div>
+        <div class="sldr-img-mobile">
+            <img src="./Media/Imagenes/slide3_movil.jpg" class="d-block w-100" alt="Venta">
+        </div>
+        <div class="carousel-caption" style="top:0% !important; left: 0%!important; right: 0%!important;">
+            <div class="container-fluid inside-sldr">
+                <div class="row" style="height: 100%;">
+                    <div class="col-md-4 HeroText">
+                        <span style="font-weight: 900;">PRODUCTOS<br></span> DE LIMPIEZA<br> <span style="font-weight: 900;"> ECOLÓGICOS</span>
+                    </div>
+                    <div class="col-md-4 HeroSpace"></div>
+                    <div class="col-md-4 HeroCard">
+
+                        <!-- FORMULARIO MOBILE -->
+
+                        <div class="contact-mobile">
+                            DESCARGA CATÁLOGO <br> DE PRODUCTOS
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                                <div class="form-group">
+                                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                                    <div class="form-check form-check-inline" id="checks">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+
+                                    <button class="btn btn-primary" type="submit" style="
+                                    
+                                    margin-top: 10px;
+                                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
+                                    border: none;  
+                                    width: 50%;
+                                    
+                                    ">ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- FORMULARIO DESKTOP -->
+
+                        <div class="contact-desktop">
+                            DESCARGA CATÁLOGO <br> DE PRODUCTOS
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                                    <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                                <div class="form-group">
+                                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                                    <div class="form-check form-check-inline" id="checks">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+
+                                    <button class="btn btn-primary" type="submit" style="
+                                    
+                                    margin-top: 0px;
+                                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
+                                    border: none;  
+                                    width: 50%;
+                                    font-size: 10px;
+                                    
+                                    ">ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     </div>
     <a class="carousel-control-prev" href="#carouselDesktop" role="button" data-slide="prev">
@@ -145,6 +332,10 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+
+
+
+<!-- SERVICIOS -->
 
 <div class="container-fluid" id="services">
     <div class="row">
@@ -312,7 +503,7 @@
     <div class="row">
         <div class="col-md f-section" style="text-align: center;">
             <div>
-                <img src="/Media/Imagenes/logo-bco.png" alt="Packlife" height="150px" style="margin-top: 80px">
+                <img src="./Media/Imagenes/logo-bco.png" alt="Packlife" height="150px" style="margin-top: 80px">
             </div>
             <div>
                 <h4 style="margin-top: 20px; font-size: 15px !important;"><strong>LÍDER EN PRODUCTOS DE LIMPIEZA</strong></h4>
@@ -326,7 +517,7 @@
                 <p style="margin-top: 60px"><strong>GUADALAJARA</strong></p>
             </div>
             <div class="media" style="margin-top: 30px;">
-                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -337,7 +528,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -347,7 +538,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -377,7 +568,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/phone-green.png" class="align-self-start mr-3" alt="phone" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -387,7 +578,7 @@
                 </div>
             </div>
             <div class="media" style="margin-top: 10px;">
-                <img src="/Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/mail-green.png" class="align-self-start mr-3" alt="mail" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
@@ -404,7 +595,7 @@
                 <p style="margin-top: 60px"><strong>CEDIS</strong></p>
             </div>
             <div class="media" style="margin-top: 30px; margin-bottom: 30px; ">
-                <img src="/Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
+                <img src="./Media/Imagenes/location.png" class="align-self-start mr-3" alt="location" height="70px" style="margin-top: 0px !important">
                 <div class="media-body">
                 <h5 class="mt-0"> </h5>
                   <p style="text-align: left;">
