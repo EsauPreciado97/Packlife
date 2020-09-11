@@ -9,7 +9,7 @@
 }
 
 #services{
-    background-image: url("/Media/Imagenes/iconos.png");
+    background-image: url("../Media/Imagenes/iconos.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,6 +72,15 @@
     padding-top: 45px;
 }
 
+.bannerText {
+
+    text-align: center;
+    height: 100%;
+    padding-top: 25%;
+    font-size: 15px;
+    font-weight: 800;
+}
+
 
 .sldr-img-mobile{
     display: block;
@@ -120,8 +129,6 @@
     font-size: 11px !important;
 }
 
-
-
 .txt{
     margin-top:     30px;
     margin-bottom:  50px;
@@ -146,9 +153,14 @@
     font-size: 15px;
     font-weight: 900;
     color: #1560a4;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 2px 3px #000;
     padding-top: 5%;
+    position: absolute;
+    z-index: 100;
+    width: 80%;
+    left: 10%;
+    top: 33%
 }
 
 .contact-desktop{
@@ -161,6 +173,8 @@
     background-color: #ffffff;
     box-shadow: 2px 2px 3px #000;
     padding-top: 5%;
+    position: absolute;
+    z-index: 100;
 }
 
 .form-group{
@@ -306,7 +320,7 @@
 	border-radius:50px;
 	text-align:center;
     box-shadow: 2px 2px 3px #999;
-    
+    z-index: 100;
 }
 
 .my-float{
@@ -314,6 +328,12 @@
     margin-left: 2px;
 
     font-size: 50px;
+}
+
+@media (min-width: 375){
+    .mailNav{
+        font-size: 14px !important;
+    }
 }
 
 @media (min-width: 768px){
@@ -345,15 +365,14 @@
         display: block;
         max-width: 200px;
         margin: auto;
-        margin-top: 5%;
+        margin-top: 3%;
+        right: 5%;
+        padding-top: 2%;
+        
     }
-
-
-}
-
-@media (min-width: 375){
-    .mailNav{
-        font-size: 14px !important;
+    .bannerText{
+        font-size: 14px;
+        padding-top: 3%;
     }
 }
 
@@ -364,7 +383,10 @@
     
     .contact-desktop{
         max-width: 250px;
-        margin-top: 20%;
+        margin-top: 8%;
+    }
+    .bannerText{
+        padding-top: 15%;
     }
 }
 
@@ -376,7 +398,11 @@
     .contact-desktop{
         font-size: 1.1em;
         max-width: 300px;
+        right:      10%;
     }   
+    .bannerText{
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1920px){
@@ -386,9 +412,16 @@
     .contact-desktop{
         max-width: 400px;
         margin: auto;
-        margin-top: 20%;
+        margin-top: 10%;
         font-size: 1.4em;
+        padding-top: 2%;
+
     } 
+    .exception{
+        width: 30% !important;
+        padding-top: 7%;
+        font-size: 18px !important;
+    }
 }
 
 @media (min-width: 2560px){
@@ -398,7 +431,7 @@
     .contact-desktop{
         max-width: 600px;
         margin: auto;
-        margin-top: 20%;
+        margin-top: 10%;
         font-size: 2em;
     } 
 }
