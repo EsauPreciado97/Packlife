@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap & Custom CSS -->
+
 <link rel="stylesheet" href="./css/styles.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -48,20 +49,20 @@
 
     <div class="contact-desktop" id="desk-form-1">
         DESCARGA CATÁLOGO <br> DE PRODUCTOS
-        <form>
+        <form method="POST" action="./php/send.php">
             <div class="form-group">
-                <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
-                <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
-                <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
-                <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                <input name="tel" type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                <input name="ciudad" type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                <input name="empresa" type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
             <div class="form-group">
                 <label for="checks">¿Te interesa ser distribuidor?</label>
                 <div class="form-check form-check-inline" id="checks">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                    <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio1" value="si">
                     <label class="form-check-label" for="inlineRadio1">Sí</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                    <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio2" value="no">
                     <label class="form-check-label" for="inlineRadio2">No</label>
                 </div>
             </div>
@@ -83,20 +84,20 @@
 
     <div class="contact-mobile">
         DESCARGA CATÁLOGO <br> DE PRODUCTOS
-        <form>
+        <form method="POST" action="./php/send.php">
             <div class="form-group">
-                <input type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
-                <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
-                <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
-                <input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                <input name="tel" type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                <input name="ciudad" type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                <input name="empresa" type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
             <div class="form-group">
                 <label for="checks">¿Te interesa ser distribuidor?</label>
                 <div class="form-check form-check-inline" id="checks">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="si">
+                    <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio1" value="si">
                     <label class="form-check-label" for="inlineRadio1">Sí</label>
                 </div>
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="no">
+                    <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio2" value="no">
                     <label class="form-check-label" for="inlineRadio2">No</label>
                 </div>
             </div>
@@ -597,8 +598,9 @@
     <i class="fab fa-whatsapp my-float"></i>
 </a>
 
-<!-- Optional JavaScript -->
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
 <script src="js/carousel.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
