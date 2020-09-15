@@ -80,39 +80,7 @@
         </form>
     </div>
 
-    <!-- FORMULARIO MOBILE -->
 
-    <div class="contact-mobile">
-        DESCARGA CATÁLOGO <br> DE PRODUCTOS
-        <form method="POST" action="./php/send.php">
-            <div class="form-group">
-                <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
-                <input name="tel" type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
-                <input name="ciudad" type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
-                <input name="empresa" type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
-            <div class="form-group">
-                <label for="checks">¿Te interesa ser distribuidor?</label>
-                <div class="form-check form-check-inline" id="checks">
-                    <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio1" value="si">
-                    <label class="form-check-label" for="inlineRadio1">Sí</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio2" value="no">
-                    <label class="form-check-label" for="inlineRadio2">No</label>
-                </div>
-            </div>
-
-                <button class="btn btn-primary" type="submit" style="
-                
-                margin-top: 10px;
-                background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
-                border: none;  
-                width: 50%;
-                
-                ">ENVIAR</button>
-            </div>
-        </form>
-    </div>
 
     <div class="carousel-inner">
 
@@ -197,6 +165,46 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+</div>
+
+<!-- MOBILE EMPTY SPACE-->
+
+<div class="container-fluid blueSpace">
+
+        <!-- FORMULARIO MOBILE -->
+
+        <div class="contact-mobile">
+            DESCARGA CATÁLOGO <br> DE PRODUCTOS
+            <form method="POST" action="./php/send.php">
+                <div class="form-group">
+                    <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Nombre" style="margin-bottom: 10px;">
+                    <input name="tel" type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="margin-bottom: 10px;">
+                    <input name="ciudad" type="text" class="form-control" id="inputCiudad" placeholder="Ciudad" style="margin-bottom: 10px;">
+                    <input name="empresa" type="text" class="form-control" id="inputEmpresa" placeholder="Empresa" style="margin-bottom: 10px;">
+                <div class="form-group">
+                    <label for="checks">¿Te interesa ser distribuidor?</label>
+                    <div class="form-check form-check-inline" id="checks">
+                        <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio1" value="si">
+                        <label class="form-check-label" for="inlineRadio1">Sí</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="distribuidor" id="inlineRadio2" value="no">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                </div>
+    
+                    <button class="btn btn-primary" type="submit" style="
+                    
+                    margin-top: 10px;
+                    background: linear-gradient(90deg, rgba(21,96,164,1) 0%, rgba(60,163,53,1) 100%) !important;
+                    border: none;  
+                    width: 50%;
+                    
+                    ">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+
 </div>
 
 <!-- SERVICIOS -->
@@ -409,9 +417,9 @@
             <div class="carousel-caption" style="top:0% !important; left: 0%!important; right: 0%!important;">
                 <div class="container-fluid inside-sldr">
 
-                    <div class="row exception" style="height: 100%; width: 80%;margin: auto;">
+                    <div class="row exception" style="height: 100%; width: 90%;margin: auto;">
                         <div class="col bannerText">
-                            <p style="margin-bottom: 0%!important;">
+                            <p style="margin-bottom: 0%!important;" class="longTxt">
                                 “Mi historia con Mr. Fresh empezó hace casí 2 años. Recuerdo que los contacte vía telefónica,
                                 la atención fue inmediata, mi primer pedido que hice fue de 100 rollos, después de platicar, 
                                 ver, analizar y de que me brindaran una información clave, decidí empezar a comprarles y la 

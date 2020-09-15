@@ -37,6 +37,17 @@
 
 
 /* CLASSES */
+.longTxt{
+    font-size: 11px;
+}
+
+.blueSpace{
+
+    background-color: #1560a4;
+    height: 500px;
+    position: relative;
+}
+
 
 .services-title{
     text-align: center;
@@ -160,7 +171,7 @@
     z-index: 100;
     width: 80%;
     left: 10%;
-    top: 33%
+    top: 5%
 }
 
 .contact-desktop{
@@ -374,6 +385,9 @@
         font-size: 14px;
         padding-top: 3%;
     }
+    .blueSpace{
+        display: none;
+    }
 }
 
 @media (min-width: 1024px){
@@ -403,6 +417,9 @@
     .bannerText{
         font-size: 18px;
     }
+    .longTxt{
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 1920px){
@@ -418,7 +435,7 @@
 
     } 
     .exception{
-        width: 30% !important;
+        width: 60% !important;
         padding-top: 7%;
         font-size: 18px !important;
     }
