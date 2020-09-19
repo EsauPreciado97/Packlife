@@ -37,6 +37,13 @@
 
 
 /* CLASSES */
+.blog{
+    font-size: 10px;
+    margin-top: 22px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .longTxt{
     font-size: 11px;
 }
@@ -137,7 +144,7 @@
 }
 
 .mailNav{
-    font-size: 11px !important;
+    font-size: 10px !important;
 }
 
 .txt{
@@ -199,7 +206,7 @@
     border-bottom: 3px solid !important;
     border-bottom-color: #1560a4 !important;
     border-bottom-right-radius: 0%;
-    font-size: 12px !important;
+    font-size: 20px !important;
 }
 
 /* Slider */
@@ -410,9 +417,9 @@
         padding-top: 10%
     }
     .contact-desktop{
-        font-size: 1.1em;
-        max-width: 300px;
-        right:      10%;
+        font-size: 1.4em;
+        max-width: 365px;
+        right:      7%;
     }   
     .bannerText{
         font-size: 18px;
@@ -427,17 +434,25 @@
         font-size:  50px;
     }  
     .contact-desktop{
-        max-width: 400px;
+        max-width: 470px;
         margin: auto;
         margin-top: 10%;
-        font-size: 1.4em;
+        font-size: 1.6em;
         padding-top: 2%;
+        right: 6%;
 
     } 
     .exception{
         width: 60% !important;
         padding-top: 7%;
         font-size: 18px !important;
+    }
+
+    .blog{
+        font-size: 12px;
+    }
+    .mailNav{
+        font-size: 12px;
     }
 }
 
